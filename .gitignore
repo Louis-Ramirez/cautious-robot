@@ -1,0 +1,58 @@
+#.net core
+
+# Ignore build outputs
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore Rider project files
+.idea/
+*.sln.iml
+
+# Ignore Visual Studio Code directories
+.vscode/
+
+# Ignore log files
+*.log
+
+# Ignore NuGet packages
+*.nupkg
+
+#react and node.js
+
+# Ignore node modules directory
+node_modules/
+
+# Ignore build directory
+build/
+dist/
+
+# Ignore npm debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore environment variables
+.env
+
+#vite
+
+# Vite cache and build output
+.vite
+
+#general
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore Linux specific files
+*~
+
+
+

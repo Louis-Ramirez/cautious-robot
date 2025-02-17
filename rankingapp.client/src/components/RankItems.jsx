@@ -26,6 +26,5 @@ const RankItems = () => {
 
     )
 
-    //  19:47
 }
 export default RankItems;

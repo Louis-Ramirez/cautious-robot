@@ -1,4 +1,4 @@
-namespace RankingApp.Server
+namespace RankingApp.Server.Models
 {
     public class WeatherForecast
     {

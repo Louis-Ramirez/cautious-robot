@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react';
 import './App.css';
+import { Layout } from './components/Layout';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 function App() {
     const [forecasts, setForecasts] = useState();
@@ -32,17 +34,45 @@ function App() {
         </table>;
 
     return (
-        <div>
-            <h1 id="tableLabel">Weather forecast</h1>
-            <p>This component demonstrates fetching data from the server.</p>
-            {contents}
-        </div>
+       <Router>
+            <Layout>
+                <div>
+
+                    <h1 id="tableLabel">Weather forecast</h1>
+                    <p>This component demonstrates fetching data from the server.</p>
+                    {contents}
+                </div>
+
+
+            </Layout>
+       
+       
+       </Router>
+
+
+        
+ 
+
     );
     
+    //async function populateWeatherData() {
+    //    const response = await fetch('weatherforecast');
+    //    const data = await response.json();
+    //    setForecasts(data);
+    //}
+
     async function populateWeatherData() {
-        const response = await fetch('weatherforecast');
-        const data = await response.json();
-        setForecasts(data);
+        try {
+            const response = await fetch('weatherforecast');
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            const data = await response.json();
+            console.log(data);
+            setForecasts(data);
+        } catch (error) {
+            console.error('Error fetching weather data:', error);
+        }
     }
 }
 

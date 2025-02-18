@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Louis\\gitfolder\\cautious-robot\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{811A5B9D-1E24-4A9A-AD21-948B77D7CDCF}|rankingapp.client\\rankingapp.client.esproj|c:\\users\\louis\\gitfolder\\cautious-robot\\rankingapp.client\\src\\setupproxy.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{811A5B9D-1E24-4A9A-AD21-948B77D7CDCF}|rankingapp.client\\rankingapp.client.esproj|solutionrelative:rankingapp.client\\src\\setupproxy.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{811A5B9D-1E24-4A9A-AD21-948B77D7CDCF}|rankingapp.client\\rankingapp.client.esproj|c:\\users\\louis\\gitfolder\\cautious-robot\\rankingapp.client\\src\\custom.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{811A5B9D-1E24-4A9A-AD21-948B77D7CDCF}|rankingapp.client\\rankingapp.client.esproj|solutionrelative:rankingapp.client\\src\\custom.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{811A5B9D-1E24-4A9A-AD21-948B77D7CDCF}|rankingapp.client\\rankingapp.client.esproj|c:\\users\\louis\\gitfolder\\cautious-robot\\rankingapp.client\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{811A5B9D-1E24-4A9A-AD21-948B77D7CDCF}|rankingapp.client\\rankingapp.client.esproj|solutionrelative:rankingapp.client\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{811A5B9D-1E24-4A9A-AD21-948B77D7CDCF}|rankingapp.client\\rankingapp.client.esproj|c:\\users\\louis\\gitfolder\\cautious-robot\\rankingapp.client\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{811A5B9D-1E24-4A9A-AD21-948B77D7CDCF}|rankingapp.client\\rankingapp.client.esproj|solutionrelative:rankingapp.client\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{811A5B9D-1E24-4A9A-AD21-948B77D7CDCF}|rankingapp.client\\rankingapp.client.esproj|c:\\users\\louis\\gitfolder\\cautious-robot\\rankingapp.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}|",
-      "RelativeMoniker": "D:0:0:{811A5B9D-1E24-4A9A-AD21-948B77D7CDCF}|rankingapp.client\\rankingapp.client.esproj|solutionrelative:rankingapp.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}|"
+      "AbsoluteMoniker": "D:0:0:{811A5B9D-1E24-4A9A-AD21-948B77D7CDCF}|rankingapp.client\\rankingapp.client.esproj|c:\\users\\louis\\gitfolder\\cautious-robot\\rankingapp.client\\src\\components\\movieimages.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{811A5B9D-1E24-4A9A-AD21-948B77D7CDCF}|rankingapp.client\\rankingapp.client.esproj|solutionrelative:rankingapp.client\\src\\components\\movieimages.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{811A5B9D-1E24-4A9A-AD21-948B77D7CDCF}|rankingapp.client\\rankingapp.client.esproj|c:\\users\\louis\\gitfolder\\cautious-robot\\rankingapp.client\\src\\components\\weatherforecast.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{811A5B9D-1E24-4A9A-AD21-948B77D7CDCF}|rankingapp.client\\rankingapp.client.esproj|solutionrelative:rankingapp.client\\src\\components\\weatherforecast.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{811A5B9D-1E24-4A9A-AD21-948B77D7CDCF}|rankingapp.client\\rankingapp.client.esproj|c:\\users\\louis\\gitfolder\\cautious-robot\\rankingapp.client\\src\\components\\navmenu.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -23,24 +27,36 @@
       "RelativeMoniker": "D:0:0:{811A5B9D-1E24-4A9A-AD21-948B77D7CDCF}|rankingapp.client\\rankingapp.client.esproj|solutionrelative:rankingapp.client\\src\\components\\rankitems.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB62010C-D2F6-4C38-BCD3-F800468690BC}|RankingApp.Server\\RankingApp.Server.csproj|c:\\users\\louis\\gitfolder\\cautious-robot\\rankingapp.server\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB62010C-D2F6-4C38-BCD3-F800468690BC}|RankingApp.Server\\RankingApp.Server.csproj|solutionrelative:rankingapp.server\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{811A5B9D-1E24-4A9A-AD21-948B77D7CDCF}|rankingapp.client\\rankingapp.client.esproj|c:\\users\\louis\\gitfolder\\cautious-robot\\rankingapp.client\\src\\components\\layout.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{811A5B9D-1E24-4A9A-AD21-948B77D7CDCF}|rankingapp.client\\rankingapp.client.esproj|solutionrelative:rankingapp.client\\src\\components\\layout.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB62010C-D2F6-4C38-BCD3-F800468690BC}|RankingApp.Server\\RankingApp.Server.csproj|c:\\users\\louis\\gitfolder\\cautious-robot\\rankingapp.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{AB62010C-D2F6-4C38-BCD3-F800468690BC}|RankingApp.Server\\RankingApp.Server.csproj|solutionrelative:rankingapp.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{811A5B9D-1E24-4A9A-AD21-948B77D7CDCF}|rankingapp.client\\rankingapp.client.esproj|c:\\users\\louis\\gitfolder\\cautious-robot\\rankingapp.client\\src\\components\\weatherforecast.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{811A5B9D-1E24-4A9A-AD21-948B77D7CDCF}|rankingapp.client\\rankingapp.client.esproj|solutionrelative:rankingapp.client\\src\\components\\weatherforecast.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{811A5B9D-1E24-4A9A-AD21-948B77D7CDCF}|rankingapp.client\\rankingapp.client.esproj|c:\\users\\louis\\gitfolder\\cautious-robot\\rankingapp.client\\src\\components\\albumimages.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{811A5B9D-1E24-4A9A-AD21-948B77D7CDCF}|rankingapp.client\\rankingapp.client.esproj|solutionrelative:rankingapp.client\\src\\components\\albumimages.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{811A5B9D-1E24-4A9A-AD21-948B77D7CDCF}|rankingapp.client\\rankingapp.client.esproj|c:\\users\\louis\\gitfolder\\cautious-robot\\rankingapp.client\\src\\approutes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{811A5B9D-1E24-4A9A-AD21-948B77D7CDCF}|rankingapp.client\\rankingapp.client.esproj|solutionrelative:rankingapp.client\\src\\approutes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{811A5B9D-1E24-4A9A-AD21-948B77D7CDCF}|rankingapp.client\\rankingapp.client.esproj|c:\\users\\louis\\gitfolder\\cautious-robot\\rankingapp.client\\src\\components\\layout.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{811A5B9D-1E24-4A9A-AD21-948B77D7CDCF}|rankingapp.client\\rankingapp.client.esproj|solutionrelative:rankingapp.client\\src\\components\\layout.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{811A5B9D-1E24-4A9A-AD21-948B77D7CDCF}|rankingapp.client\\rankingapp.client.esproj|c:\\users\\louis\\gitfolder\\cautious-robot\\rankingapp.client\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{811A5B9D-1E24-4A9A-AD21-948B77D7CDCF}|rankingapp.client\\rankingapp.client.esproj|solutionrelative:rankingapp.client\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{811A5B9D-1E24-4A9A-AD21-948B77D7CDCF}|rankingapp.client\\rankingapp.client.esproj|c:\\users\\louis\\gitfolder\\cautious-robot\\rankingapp.client\\src\\setupproxy.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{811A5B9D-1E24-4A9A-AD21-948B77D7CDCF}|rankingapp.client\\rankingapp.client.esproj|solutionrelative:rankingapp.client\\src\\setupproxy.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{811A5B9D-1E24-4A9A-AD21-948B77D7CDCF}|rankingapp.client\\rankingapp.client.esproj|c:\\users\\louis\\gitfolder\\cautious-robot\\rankingapp.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}|",
+      "RelativeMoniker": "D:0:0:{811A5B9D-1E24-4A9A-AD21-948B77D7CDCF}|rankingapp.client\\rankingapp.client.esproj|solutionrelative:rankingapp.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB62010C-D2F6-4C38-BCD3-F800468690BC}|RankingApp.Server\\RankingApp.Server.csproj|c:\\users\\louis\\gitfolder\\cautious-robot\\rankingapp.server\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB62010C-D2F6-4C38-BCD3-F800468690BC}|RankingApp.Server\\RankingApp.Server.csproj|solutionrelative:rankingapp.server\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB62010C-D2F6-4C38-BCD3-F800468690BC}|RankingApp.Server\\RankingApp.Server.csproj|c:\\users\\louis\\gitfolder\\cautious-robot\\rankingapp.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AB62010C-D2F6-4C38-BCD3-F800468690BC}|RankingApp.Server\\RankingApp.Server.csproj|solutionrelative:rankingapp.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB62010C-D2F6-4C38-BCD3-F800468690BC}|RankingApp.Server\\RankingApp.Server.csproj|c:\\users\\louis\\gitfolder\\cautious-robot\\rankingapp.server\\models\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -74,7 +90,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -89,42 +105,115 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "custom.css",
+              "DocumentMoniker": "C:\\Users\\Louis\\gitfolder\\cautious-robot\\rankingapp.client\\src\\custom.css",
+              "RelativeDocumentMoniker": "rankingapp.client\\src\\custom.css",
+              "ToolTip": "C:\\Users\\Louis\\gitfolder\\cautious-robot\\rankingapp.client\\src\\custom.css",
+              "RelativeToolTip": "rankingapp.client\\src\\custom.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-17T22:49:40.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "index.css",
+              "DocumentMoniker": "C:\\Users\\Louis\\gitfolder\\cautious-robot\\rankingapp.client\\src\\index.css",
+              "RelativeDocumentMoniker": "rankingapp.client\\src\\index.css",
+              "ToolTip": "C:\\Users\\Louis\\gitfolder\\cautious-robot\\rankingapp.client\\src\\index.css",
+              "RelativeToolTip": "rankingapp.client\\src\\index.css",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAIwEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-17T22:49:11.654Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "App.jsx",
-              "DocumentMoniker": "C:\\Users\\Louis\\gitfolder\\cautious-robot\\rankingapp.client\\src\\App.jsx",
-              "RelativeDocumentMoniker": "rankingapp.client\\src\\App.jsx",
-              "ToolTip": "C:\\Users\\Louis\\gitfolder\\cautious-robot\\rankingapp.client\\src\\App.jsx",
-              "RelativeToolTip": "rankingapp.client\\src\\App.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-02-16T18:47:52.514Z",
+              "Title": "MovieImages.js",
+              "DocumentMoniker": "C:\\Users\\Louis\\gitfolder\\cautious-robot\\rankingapp.client\\src\\components\\MovieImages.js",
+              "RelativeDocumentMoniker": "rankingapp.client\\src\\components\\MovieImages.js",
+              "ToolTip": "C:\\Users\\Louis\\gitfolder\\cautious-robot\\rankingapp.client\\src\\components\\MovieImages.js",
+              "RelativeToolTip": "rankingapp.client\\src\\components\\MovieImages.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-02-17T20:00:19.871Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "WeatherForecast.jsx",
+              "DocumentMoniker": "C:\\Users\\Louis\\gitfolder\\cautious-robot\\rankingapp.client\\src\\components\\WeatherForecast.jsx",
+              "RelativeDocumentMoniker": "rankingapp.client\\src\\components\\WeatherForecast.jsx",
+              "ToolTip": "C:\\Users\\Louis\\gitfolder\\cautious-robot\\rankingapp.client\\src\\components\\WeatherForecast.jsx",
+              "RelativeToolTip": "rankingapp.client\\src\\components\\WeatherForecast.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-02-17T16:44:34.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "NavMenu.jsx",
               "DocumentMoniker": "C:\\Users\\Louis\\gitfolder\\cautious-robot\\rankingapp.client\\src\\components\\NavMenu.jsx",
               "RelativeDocumentMoniker": "rankingapp.client\\src\\components\\NavMenu.jsx",
               "ToolTip": "C:\\Users\\Louis\\gitfolder\\cautious-robot\\rankingapp.client\\src\\components\\NavMenu.jsx",
               "RelativeToolTip": "rankingapp.client\\src\\components\\NavMenu.jsx",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwDMAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2025-02-16T20:16:36.128Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "RankItems.jsx",
               "DocumentMoniker": "C:\\Users\\Louis\\gitfolder\\cautious-robot\\rankingapp.client\\src\\components\\RankItems.jsx",
               "RelativeDocumentMoniker": "rankingapp.client\\src\\components\\RankItems.jsx",
               "ToolTip": "C:\\Users\\Louis\\gitfolder\\cautious-robot\\rankingapp.client\\src\\components\\RankItems.jsx",
               "RelativeToolTip": "rankingapp.client\\src\\components\\RankItems.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2025-02-17T15:32:33.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Layout.jsx",
+              "DocumentMoniker": "C:\\Users\\Louis\\gitfolder\\cautious-robot\\rankingapp.client\\src\\components\\Layout.jsx",
+              "RelativeDocumentMoniker": "rankingapp.client\\src\\components\\Layout.jsx",
+              "ToolTip": "C:\\Users\\Louis\\gitfolder\\cautious-robot\\rankingapp.client\\src\\components\\Layout.jsx",
+              "RelativeToolTip": "rankingapp.client\\src\\components\\Layout.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-02-17T12:42:20.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AlbumImages.js",
+              "DocumentMoniker": "C:\\Users\\Louis\\gitfolder\\cautious-robot\\rankingapp.client\\src\\components\\AlbumImages.js",
+              "RelativeDocumentMoniker": "rankingapp.client\\src\\components\\AlbumImages.js",
+              "ToolTip": "C:\\Users\\Louis\\gitfolder\\cautious-robot\\rankingapp.client\\src\\components\\AlbumImages.js",
+              "RelativeToolTip": "rankingapp.client\\src\\components\\AlbumImages.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-02-17T22:12:30.105Z",
               "EditorCaption": ""
             },
             {
@@ -135,61 +224,53 @@
               "RelativeDocumentMoniker": "rankingapp.client\\src\\AppRoutes.js",
               "ToolTip": "C:\\Users\\Louis\\gitfolder\\cautious-robot\\rankingapp.client\\src\\AppRoutes.js",
               "RelativeToolTip": "rankingapp.client\\src\\AppRoutes.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-02-16T16:04:32.134Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
+              "Title": "App.jsx",
+              "DocumentMoniker": "C:\\Users\\Louis\\gitfolder\\cautious-robot\\rankingapp.client\\src\\App.jsx",
+              "RelativeDocumentMoniker": "rankingapp.client\\src\\App.jsx",
+              "ToolTip": "C:\\Users\\Louis\\gitfolder\\cautious-robot\\rankingapp.client\\src\\App.jsx",
+              "RelativeToolTip": "rankingapp.client\\src\\App.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-02-16T18:47:52.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "setupProxy.js",
+              "DocumentMoniker": "C:\\Users\\Louis\\gitfolder\\cautious-robot\\rankingapp.client\\src\\setupProxy.js",
+              "RelativeDocumentMoniker": "rankingapp.client\\src\\setupProxy.js",
+              "ToolTip": "C:\\Users\\Louis\\gitfolder\\cautious-robot\\rankingapp.client\\src\\setupProxy.js",
+              "RelativeToolTip": "rankingapp.client\\src\\setupProxy.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-02-17T14:51:05.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "vite.config.js",
               "DocumentMoniker": "C:\\Users\\Louis\\gitfolder\\cautious-robot\\rankingapp.client\\vite.config.js",
               "RelativeDocumentMoniker": "rankingapp.client\\vite.config.js",
               "ToolTip": "C:\\Users\\Louis\\gitfolder\\cautious-robot\\rankingapp.client\\vite.config.js",
               "RelativeToolTip": "rankingapp.client\\vite.config.js",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-02-16T17:39:02.952Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "setupProxy.js",
-              "DocumentMoniker": "C:\\Users\\Louis\\gitfolder\\cautious-robot\\rankingapp.client\\src\\setupProxy.js",
-              "RelativeDocumentMoniker": "rankingapp.client\\src\\setupProxy.js",
-              "ToolTip": "C:\\Users\\Louis\\gitfolder\\cautious-robot\\rankingapp.client\\src\\setupProxy.js",
-              "RelativeToolTip": "rankingapp.client\\src\\setupProxy.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-02-17T14:51:05.681Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "WeatherForecast.jsx",
-              "DocumentMoniker": "C:\\Users\\Louis\\gitfolder\\cautious-robot\\rankingapp.client\\src\\components\\WeatherForecast.jsx",
-              "RelativeDocumentMoniker": "rankingapp.client\\src\\components\\WeatherForecast.jsx",
-              "ToolTip": "C:\\Users\\Louis\\gitfolder\\cautious-robot\\rankingapp.client\\src\\components\\WeatherForecast.jsx",
-              "RelativeToolTip": "rankingapp.client\\src\\components\\WeatherForecast.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-02-17T16:44:34.07Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\Louis\\gitfolder\\cautious-robot\\RankingApp.Server\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "RankingApp.Server\\Controllers\\WeatherForecastController.cs",
@@ -202,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Louis\\gitfolder\\cautious-robot\\RankingApp.Server\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "RankingApp.Server\\Properties\\launchSettings.json",
@@ -215,20 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Layout.jsx",
-              "DocumentMoniker": "C:\\Users\\Louis\\gitfolder\\cautious-robot\\rankingapp.client\\src\\components\\Layout.jsx",
-              "RelativeDocumentMoniker": "rankingapp.client\\src\\components\\Layout.jsx",
-              "ToolTip": "C:\\Users\\Louis\\gitfolder\\cautious-robot\\rankingapp.client\\src\\components\\Layout.jsx",
-              "RelativeToolTip": "rankingapp.client\\src\\components\\Layout.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-02-17T12:42:20.532Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\Louis\\gitfolder\\cautious-robot\\RankingApp.Server\\Models\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "RankingApp.Server\\Models\\WeatherForecast.cs",
@@ -241,7 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "ItemModel.cs",
               "DocumentMoniker": "C:\\Users\\Louis\\gitfolder\\cautious-robot\\RankingApp.Server\\Models\\ItemModel.cs",
               "RelativeDocumentMoniker": "RankingApp.Server\\Models\\ItemModel.cs",
@@ -254,7 +322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Louis\\gitfolder\\cautious-robot\\RankingApp.Server\\Program.cs",
               "RelativeDocumentMoniker": "RankingApp.Server\\Program.cs",
@@ -267,7 +335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\Louis\\gitfolder\\cautious-robot\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
@@ -280,7 +348,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "launch.json",
               "DocumentMoniker": "C:\\Users\\Louis\\gitfolder\\cautious-robot\\rankingapp.client\\.vscode\\launch.json",
               "RelativeDocumentMoniker": "rankingapp.client\\.vscode\\launch.json",
@@ -292,7 +360,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "rankingapp.client.esproj",
               "DocumentMoniker": "C:\\Users\\Louis\\gitfolder\\cautious-robot\\rankingapp.client\\rankingapp.client.esproj",
               "RelativeDocumentMoniker": "rankingapp.client\\rankingapp.client.esproj",

@@ -16,7 +16,9 @@ obj/
 *.sln.iml
 
 # Ignore Visual Studio Code directories
-.vscode/
+.vs/
+!.vscode/launch.json
+
 .vs/
 
 

@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
-import MovieImageArr from './MovieImages';
+import MovieImageArr from './MovieImages.js';
 import '../custom.css'
+import RankingGrid from './RankingGrid';
 
 
 const RankItems = () => {

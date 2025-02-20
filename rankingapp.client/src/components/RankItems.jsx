@@ -22,12 +22,10 @@ const RankItems = () => {
 
     return (
         <main>
+            <RankingGrid items={items} imgArr={MovieImageArr} />
             <div className="items-not-ranked">
-
                 {
-                    //(items !== null) ? items.map((item) => <h3 key={item.id}>{item.title}</h3>) : <div>Loading..</div>
-                
-                    
+                    //(items !== null) ? items.map((item) => <h3 key={item.id}>{item.title}</h3>) : <div>Loading..</div>                    
                     items.length > 0 ? (
                         items.map((item) => (
                             <div className="unranked-cell" key={`item-${item.id}`}>
@@ -41,8 +39,7 @@ const RankItems = () => {
                     ) : (
                         <div>Loading...</div>
                     )
-                    
-
+               
                 }
             </div>
 

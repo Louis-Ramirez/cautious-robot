@@ -15,7 +15,7 @@ const RankingGrid = ({items, imgArr}) => {
         } else {
             cellCollection.push(
                 <div className="row-label">
-                    <h4>{ rowLabel}</h4>
+                    <h4>{ rowLabel }</h4>
                 </div>
             );
         }
@@ -81,3 +81,4 @@ const RankingGrid = ({items, imgArr}) => {
         </div>
     )
 }
+export default RankingGrid;

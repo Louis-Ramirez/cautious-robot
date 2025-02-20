@@ -1,6 +1,6 @@
-const RankingGrid = ({items, imgArr}) => {
+import PropTypes from 'prop-types';
 
-    //timestamp 46:09
+const RankingGrid = ({ items, imgArr, drag, allowDrop, drop }) => {
 
     const rankingGrid = [];
     const cellCollectionTop = [];
@@ -11,8 +11,13 @@ const RankingGrid = ({items, imgArr}) => {
     function pushCellMarkupToArr(cellCollection, rankNum, rowLabel) {
         if (rankNum > 0) {
             var item = items.find(o => o.ranking === rankNum);
-            cellCollection.push(<div id={`rank-${rankNum}`} className="rank-cell"></div>);
-        } else {
+            cellCollection.push(<div id={`rank-${rankNum}`} onDrop={drop} onDragOver={allowDrop} className="rank-cell"></div>);
+            {
+                (item != null) ? <img id={`item-${item.id}`} src={imgArr.find(o => o.id === item.imageId)?.image} draggable="true" onDragStart={drag} />
+                : null
+            }
+        }
+        else {
             cellCollection.push(
                 <div className="row-label">
                     <h4>{ rowLabel }</h4>
@@ -77,8 +82,20 @@ const RankingGrid = ({items, imgArr}) => {
 
     return (
         <div className="rankings">
-            {createRankingGrid }
+            {createRankingGrid()}
         </div>
     )
 }
+
+RankingGrid.propTypes = {
+    items: PropTypes.arrayOf(
+        PropTypes.shape({
+            ranking: PropTypes.number.isRequired,
+            // Add other properties of your items here
+        })
+    ).isRequired,
+    imgArr: PropTypes.array.isRequired,
+};
+
 export default RankingGrid;
+

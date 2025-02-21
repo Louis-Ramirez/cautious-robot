@@ -9,9 +9,9 @@ const RankItems = () => {
     const [items, setItems] = useState([]);
     const dataType = 1; 
 
-    function Reload() {
-        setReload(true);
-    }
+    //function Reload() {
+    //    setReload(true);
+    //}
 
     function drag(ev) {
         ev.dataTransfer.setData("text", ev.target.id);
@@ -46,7 +46,7 @@ const RankItems = () => {
 
     }, []);
 
-    console.log(MovieImageArr, "logging MovieImaages Arer");
+    //console.log(MovieImageArr, "logging MovieImaages Arer");
 
     return (
         <main>
@@ -61,14 +61,15 @@ const RankItems = () => {
                                     id={`item-${item.id}`}
                                     src={MovieImageArr.find((o) => o.id === item.imageId)?.image}
                                     alt={item.name}
-                                    // 59:34
+                                    style={{ cursor: "pointer" }}
+                                    draggable="true"
+                                    onDragStart={drag}
                                 />
                             </div>
                         ))
                     ) : (
                         <div>Loading...</div>
                     )
-               
                 }
             </div>
 

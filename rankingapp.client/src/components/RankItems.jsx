@@ -53,6 +53,7 @@ const RankItems = () => {
             <RankingGrid items={items} imgArr={MovieImageArr} drag={drag} allowDrop={allowDrop} drop={drop} />
             <div className="items-not-ranked">
                 {
+                    //1:02:37 Time stamp
                     //(items !== null) ? items.map((item) => <h3 key={item.id}>{item.title}</h3>) : <div>Loading..</div>                    
                     items.length > 0 ? (
                         items.map((item) => (

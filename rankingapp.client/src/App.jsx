@@ -2,8 +2,9 @@ import { useEffect, useState } from 'react';
 import './App.css';
 import { Layout } from './components/Layout';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import RankItems from './components/RankItems';
 import WeatherForecast from './components/WeatherForecast';
+import MovieImageArr from "./components/MovieImages.js";
+import RankItemsContainer from "./components/RankItemsContainers";
 
 function App() {
     const [forecasts, setForecasts] = useState();
@@ -19,7 +20,7 @@ function App() {
 
                 <Routes>
                     <Route path="/" element={<WeatherForecast forecasts={forecasts} />} />
-                    <Route path="/rank-items" element={<RankItems />}/>
+                    <Route path="/rank-items" element={<RankItemsContainer dataType={1} imgArr={MovieImageArr} />}/>
               
 
                 </Routes>

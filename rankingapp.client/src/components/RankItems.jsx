@@ -1,28 +1,25 @@
-import { useEffect, useState } from 'react';
-import MovieImageArr from './MovieImages.js';
-import '../custom.css'
-import RankingGrid from './RankingGrid';
+import { useEffect, useState, useCallback } from 'react';
+import PropTypes from 'prop-types';
+import RankingGrid from "./RankingGrid";
+import ItemCollection from "./ItemCollection";
 
+const RankItems = ({ items, setItems, dataType, imgArr, localStorageKey }) => {
 
-const RankItems = () => {
+    const [reload, setReload] = useState(false);
 
-    const [items, setItems] = useState([]);
-    const dataType = 1; 
+    const Reload = () => {
+        setReload(true);
+    }
 
-    //function Reload() {
-    //    setReload(true);
-    //}
-
-    function drag(ev) {
+    const drag = (ev) => {
         ev.dataTransfer.setData("text", ev.target.id);
     }
 
-    function allowDrop(ev) {
+    const allowDrop = (ev) => {
         ev.preventDefault();
     }
 
-    function drop(ev) {
-
+    const drop = (ev) => {
         ev.preventDefault();
         const targetElm = ev.target;
         if (targetElm.nodeName === "IMG") {
@@ -34,48 +31,62 @@ const RankItems = () => {
                 { ...item, ranking: parseInt(targetElm.id.substring(5)) } : { ...item, ranking: item.ranking });
             setItems(transformedCollection);
         }
-
     }
 
+    const getDataFromApi = useCallback(() => {
+        fetch(`item/${dataType}`)
+            .then((results) => {
+                return results.json();
+            })
+            .then(data => {
+                setItems(data);
+            })
+    }, [dataType, setItems]);
+
     useEffect(() => {
-        fetch(`item/${dataType}`).then((results) => {
-            return results.json();
-        }).then(data => {
-            setItems(data);
-        });
+        if (items == null) {
+            getDataFromApi();
+        }
+    }, [dataType, getDataFromApi, items]);
 
-    }, []);
+    useEffect(() => {
+        if (items != null) {
+            localStorage.setItem(localStorageKey, JSON.stringify(items));
+        }
+        setReload(false);
+    }, [items, localStorageKey]);
 
-    //console.log(MovieImageArr, "logging MovieImaages Arer");
+    useEffect(() => {
+        if (reload === true) {
+            getDataFromApi();
+        }
+    }, [reload, getDataFromApi]);
 
     return (
-        <main>
-            <RankingGrid items={items} imgArr={MovieImageArr} drag={drag} allowDrop={allowDrop} drop={drop} />
-            <div className="items-not-ranked">
-                {
-                    //(items !== null) ? items.map((item) => <h3 key={item.id}>{item.title}</h3>) : <div>Loading..</div>                    
-                    items.length > 0 ? (
-                        items.map((item) => (
-                            <div className="unranked-cell" key={`item-${item.id}`}>
-                                <img
-                                    id={`item-${item.id}`}
-                                    src={MovieImageArr.find((o) => o.id === item.imageId)?.image}
-                                    alt={item.name}
-                                    style={{ cursor: "pointer" }}
-                                    draggable="true"
-                                    onDragStart={drag}
-                                />
-                            </div>
-                        ))
-                    ) : (
-                        <div>Loading...</div>
-                    )
-                }
-            </div>
-
-        </main>
-
+        (items != null) ?
+            <main>
+                <RankingGrid items={items} imgArr={imgArr} drag={drag} allowDrop={allowDrop} drop={drop} />
+                <ItemCollection items={items} drag={drag} imgArr={imgArr} />
+                <button onClick={Reload} className="reload" style={{ "marginTop": "10px" }}> <span className="text" >Reload</span > </button>
+            </main>
+            : <main>Loading...</main>
     )
-
 }
+
+RankItems.propTypes = {
+    items: PropTypes.arrayOf(PropTypes.shape({
+        id: PropTypes.oneOfType([PropTypes.number, PropTypes.string]).isRequired,
+        name: PropTypes.string.isRequired,
+        ranking: PropTypes.number.isRequired,
+        imageId: PropTypes.oneOfType([PropTypes.number, PropTypes.string]).isRequired,
+    })).isRequired,
+    setItems: PropTypes.func.isRequired,
+    dataType: PropTypes.string.isRequired,
+    imgArr: PropTypes.arrayOf(PropTypes.shape({
+        id: PropTypes.oneOfType([PropTypes.number, PropTypes.string]).isRequired,
+        src: PropTypes.string.isRequired,
+    })).isRequired,
+    localStorageKey: PropTypes.string.isRequired,
+};
+
 export default RankItems;

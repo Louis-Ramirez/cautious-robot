@@ -1,12 +1,12 @@
-import { RankItems } from "./components/RankItems";
+//import { RankItems } from "./components/RankItems";
 
-const AppRoutes = [
-    {
-        path: '/rank-items',
-        element: <RankItems />
-    }
+//const AppRoutes = [
+//    {
+//        path: '/rank-items',
+//        element: <RankItems />
+//    }
 
 
-];
+//];
 
-export default AppRoutes;
+//export default AppRoutes;

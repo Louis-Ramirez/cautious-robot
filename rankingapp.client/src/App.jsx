@@ -5,6 +5,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import WeatherForecast from './components/WeatherForecast';
 import MovieImageArr from "./components/MovieImages.js";
 import RankItemsContainer from "./components/RankItemsContainers";
+import AlbumImageArr from "./components/AlbumImages.js"
+
 
 function App() {
     const [forecasts, setForecasts] = useState();
@@ -20,8 +22,9 @@ function App() {
 
                 <Routes>
                     <Route path="/" element={<WeatherForecast forecasts={forecasts} />} />
-                    <Route path="/rank-items" element={<RankItemsContainer dataType={1} imgArr={MovieImageArr} />}/>
-              
+                    <Route path="/rank-items" element={<RankItemsContainer dataType={1} imgArr={MovieImageArr} />} />
+                    <Route path="/rank-albums" element={<RankItemsContainer dataType={2} imgArr={AlbumImageArr} />} />
+                
 
                 </Routes>
 
